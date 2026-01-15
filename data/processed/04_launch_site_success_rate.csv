@@ -1,0 +1,4 @@
+launch_site,n_launches,n_success,success_rate
+KSC LC 39A,22,17,0.773
+VAFB SLC 4E,13,10,0.769
+CCSFS SLC 40,55,33,0.6
