@@ -1,0 +1,5 @@
+model,test_accuracy,cv_best_score,best_params
+Logistic Regression,0.8333333333333334,0.8214285714285714,"{'C': 0.1, 'penalty': 'l2', 'solver': 'lbfgs'}"
+Support Vector Machine,0.8333333333333334,0.8482142857142858,"{'C': np.float64(1.0), 'gamma': np.float64(0.03162277660168379), 'kernel': 'sigmoid'}"
+Decision Tree,0.6666666666666666,0.8321428571428571,"{'criterion': 'entropy', 'max_depth': 8, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 10, 'splitter': 'random'}"
+K Nearest Neighbors,0.7777777777777778,0.8339285714285714,"{'algorithm': 'auto', 'n_neighbors': 3, 'p': 1}"

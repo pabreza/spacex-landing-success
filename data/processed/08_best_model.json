@@ -1,0 +1,9 @@
+{
+  "selected_best_model": "Support Vector Machine",
+  "model_performance_csv": "../data/processed/08_model_performance.csv",
+  "best_params": {
+    "C": 1.0,
+    "gamma": 0.03162277660168379,
+    "kernel": "sigmoid"
+  }
+}
