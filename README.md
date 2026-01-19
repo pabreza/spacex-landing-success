@@ -76,4 +76,11 @@ Writes: `docs/07_dash_app_preview.html`
 - `data/processed/08_best_model.joblib`: best model pipeline
 - `data/processed/08_best_model.json` + `08_model_performance.csv`: reproducible model summary
 
+## Limitations
+- Data + results are based on a single snapshot and a simplified binary target.
+- Accuracy is from one train/test split and may change with different validation.
+
+## Next Improvements
+- Add stronger validation + metrics (time split, CV, F1/ROC-AUC).
+- Deploy the Dash app and improve interpretability (feature importance).
 ---
