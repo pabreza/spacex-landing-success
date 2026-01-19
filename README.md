@@ -19,9 +19,17 @@ See:
 ---
 
 ## Live demos (GitHub Pages)
-This repo includes static HTML outputs in `docs/`:
-- `docs/06_launch_site_map.html` (Folium map)
-- `docs/07_dash_app_preview.html` (static Plotly preview of the Dash dasboard)
+This repo includes static HTML outputs (also see `docs/`):
+
+### Folium interactive map
+[Open the map](https://pabreza.github.io/spacex-landing-success/06_launch_site_map.html)
+
+![Folium map preview](docs/assets/folium_map_preview.png)
+
+### Dash dashboard (static preview)
+[Open the dashboard preview](https://pabreza.github.io/spacex-landing-success/07_dash_app_preview.html)
+
+![Dashboard preview](docs/assets/dash_preview.png)
 
 ---
 
