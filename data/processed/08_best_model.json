@@ -1,9 +1,39 @@
 {
   "selected_best_model": "Support Vector Machine",
-  "model_performance_csv": "../data/processed/08_model_performance.csv",
+  "test_accuracy": 0.7777777777777778,
+  "cv_best_score": 0.8642857142857144,
   "best_params": {
-    "C": 1.0,
-    "gamma": 0.03162277660168379,
-    "kernel": "sigmoid"
-  }
+    "model__C": 0.03162277660168379,
+    "model__gamma": 0.001,
+    "model__kernel": "linear"
+  },
+  "pipeline_steps": [
+    "scaler",
+    "model"
+  ],
+  "split": {
+    "test_size": 0.2,
+    "random_state": 2,
+    "stratify": true
+  },
+  "validation": {
+    "cv_folds": 10
+  },
+  "inputs": {
+    "dataset_part_2": "../data/processed/03_dataset_part_2.csv",
+    "dataset_part_3": "../data/processed/05_dataset_part_3.csv"
+  },
+  "outputs": {
+    "model_performance_csv": "../data/processed/08_model_performance.csv",
+    "best_model_json": "../data/processed/08_best_model.json",
+    "best_model_joblib": "../data/processed/08_best_model.joblib",
+    "feature_names_json": "../data/processed/08_feature_names.json"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "sklearn": "1.8.0",
+    "numpy": "2.2.5",
+    "pandas": "2.3.3"
+  },
+  "created_utc": "2026-01-19T13:14:59.695439+00:00"
 }

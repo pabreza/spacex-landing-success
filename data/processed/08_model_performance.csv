@@ -1,5 +1,5 @@
-model,test_accuracy,cv_best_score,best_params
-Logistic Regression,0.8333333333333334,0.8214285714285714,"{'C': 0.1, 'penalty': 'l2', 'solver': 'lbfgs'}"
-Support Vector Machine,0.8333333333333334,0.8482142857142858,"{'C': np.float64(1.0), 'gamma': np.float64(0.03162277660168379), 'kernel': 'sigmoid'}"
-Decision Tree,0.6666666666666666,0.8321428571428571,"{'criterion': 'entropy', 'max_depth': 8, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 10, 'splitter': 'random'}"
-K Nearest Neighbors,0.7777777777777778,0.8339285714285714,"{'algorithm': 'auto', 'n_neighbors': 3, 'p': 1}"
+Model,Test Accuracy,CV Best Score,Best Params
+Support Vector Machine,0.7777777777777778,0.8642857142857144,"{""model__C"": 0.03162277660168379, ""model__gamma"": 0.001, ""model__kernel"": ""linear""}"
+K Nearest Neighbors,0.7777777777777778,0.8625,"{""model__algorithm"": ""auto"", ""model__n_neighbors"": 4, ""model__p"": 1}"
+Logistic Regression,0.7777777777777778,0.8517857142857144,"{""model__C"": 1, ""model__solver"": ""lbfgs""}"
+Decision Tree,0.6111111111111112,0.8928571428571429,"{""model__criterion"": ""entropy"", ""model__max_depth"": 10, ""model__max_features"": ""log2"", ""model__min_samples_leaf"": 1, ""model__min_samples_split"": 5, ""model__splitter"": ""best""}"
