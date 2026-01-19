@@ -5,8 +5,6 @@ Predict whether a Falcon 9 first-stage booster will land successfully, and ident
 This repo is an end-to-end data science project:
 **data collection ➡︎ data wrangling ➡︎ EDA (SQL + visualization) ➡︎ interactive analytics (Folium + Dash) ➡︎ ML classification**.
 
----
-
 ## Key Results (from saved artifacts)
 - Landing success rate increases over time; clear differences by **launch site**,**orbit**, and **payload mass**.
 - Model comparison (test split): **SVM / Logistic Regression / KNN ≈ 0.78 test accuracy** on this dataset.
@@ -15,8 +13,6 @@ This repo is an end-to-end data science project:
 See:
 - `data/processed/08_model_performance.csv`
 - `data/processed/08_best_model.json`
-
----
 
 ## Live demos (GitHub Pages)
 This repo includes static HTML outputs (also see `docs/`):
@@ -31,16 +27,12 @@ This repo includes static HTML outputs (also see `docs/`):
 
 ![Dashboard preview](docs/assets/dash_preview.png)
 
----
-
 ## Repo structure
 - `notebooks/`: numbered notebooks (data collection, wrangling, EDA, visualization, modeling)
 - `src/`: Dash app (`07_dash_app.py`)
 - `data/raw/`: raw inputs (API pulls, scraped HTML)
 - `data/processed/`: cleaned datasets, SQLite DB, derived artifacts, trained model
 - `docs/`: static HTML outputs for GitHub Pages
-
----
 
 ## Quickstart (local)
 ### 1. Install dependencies
@@ -77,11 +69,11 @@ python src/07_dash_app.py --export-preview
 ```
 Writes: `docs/07_dash_app_preview.html`
 
----
-
 ## Main artifacts produced
 - `data/processed/03_dataset_part_2.csv`: cleaned dataset used across EDA + visualization
 - `data/processed/04_spacex_launches.db`: SQLite database for SQL EDA
 - `data/processed/06_launch_site_map.html`: interactive Folium map output (also copied to `docs/`)
 - `data/processed/08_best_model.joblib`: best model pipeline
 - `data/processed/08_best_model.json` + `08_model_performance.csv`: reproducible model summary
+
+---
